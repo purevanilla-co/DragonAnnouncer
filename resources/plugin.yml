@@ -1,0 +1,8 @@
+name: "DragonAnnouncer"
+main: co.purevanilla.mcplugins.dragonannouncer.Main
+version: "1.0.0"
+commands:
+  dragonannounce:
+    description: Announce a rank purchase
+    usage: /dragonannounce
+    permission: dragonannouncer.announce
