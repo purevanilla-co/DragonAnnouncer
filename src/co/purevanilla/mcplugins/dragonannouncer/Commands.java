@@ -30,7 +30,7 @@ public class Commands implements CommandExecutor
             }.runTaskLater(Main.plugin, 200L);
             new BukkitRunnable() {
                 public void run() {
-                    TitleAPI.sendTitle(player, 10, 60, 10, "", "&ehttps://purevanilla.es/store");
+                    TitleAPI.sendTitle(player, 10, 60, 10, "", "&ehttps://purevanilla.co/store");
                     player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1.0f, 0.0f);
                 }
             }.runTaskLater(Main.plugin, 280L);
